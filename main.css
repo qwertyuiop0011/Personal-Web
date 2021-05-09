@@ -1,0 +1,125 @@
+:root {
+    --text-color: rgb(0, 110, 255);
+    --button-background: rgb(255, 255, 255);
+    --github-text: #000000;
+    --github-border: #000000;
+    --github-hover-background: #000000;
+    --github-hover-text: rgb(255, 255, 255);
+    --facebook-text: #1877f2;
+    --facebook-border: #1877f2;
+    --facebook-hover-background: #1877f2;
+    --facebook-hover-text: rgb(255, 255, 255);
+    --youtube-text: #ff0000;
+    --youtube-border: #ff0000;
+    --youtube-hover-background: #ff0000;
+    --youtube-hover-text: rgb(255, 255, 255);
+    --twitter-text: #08a0e9;
+    --twitter-border: #08a0e9;
+    --twitter-hover-background: #08a0e9;
+    --twitter-hover-text: rgb(255, 255, 255);
+    --twitch-text: #9147fe;
+    --twitch-border: #9147fe;
+    --twitch-hover-background: #9147fe;
+    --twitch-hover-text: rgb(255, 255, 255);
+}
+
+/* [data-theme="dark"] {
+    --text-color: rgb(0, 110, 255);
+    --button-background: rgb(0, 0, 0);
+    --github-text: #ffffff;
+    --github-border: #ffffff;
+    --github-hover-background: #ffffff;
+    --github-hover-text: rgb(0, 0, 0);
+    --facebook-text: #1877f2;
+    --facebook-border: #1877f2;
+    --facebook-hover-background: #1877f2;
+    --facebook-hover-text: rgb(0, 0, 0);
+} */
+
+div {
+    text-align: center;
+    padding: 230px;
+    font-size: 50px;
+    color: var(--text-color);
+    font-family: 'Rubik', sans-serif;
+}
+
+.github-view {
+    background-color: var(--button-background);
+    color: var(--github-text);
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--github-border);
+}
+
+.github-view:hover {
+    transition-duration: 0.4s;
+    background-color: var(--github-hover-background);
+    color: var(--github-hover-text);
+}
+
+.facebook-view {
+    background-color: var(--button-background);
+    color: var(--facebook-text);
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--facebook-border);
+}
+
+.facebook-view:hover {
+    transition-duration: 0.4s;
+    background-color: var(--facebook-hover-background);
+    color: var(--facebook-hover-text);
+}
+
+.youtube-view {
+    background-color: var(--button-background);
+    color: var(--youtube-text);
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--youtube-border);
+}
+
+.youtube-view:hover {
+    transition-duration: 0.4s;
+    background-color: var(--youtube-hover-background);
+    color: var(--youtube-hover-text);
+}
+
+.twitter-view {
+    background-color: var(--button-background);
+    color: var(--twitter-text);
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--twitter-border);
+}
+
+.twitter-view:hover {
+    transition-duration: 0.4s;
+    background-color: var(--twitter-hover-background);
+    color: var(--twitter-hover-text);
+}
+
+.twitch-view {
+    background-color: var(--button-background);
+    color: var(--twitch-text);
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--twitch-border);
+}
+
+.twitch-view:hover {
+    transition-duration: 0.4s;
+    background-color: var(--twitch-hover-background);
+    color: var(--twitch-hover-text);
+}
