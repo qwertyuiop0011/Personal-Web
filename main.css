@@ -1,10 +1,10 @@
 :root {
     --text-color: rgb(0, 110, 255);
-    --button-background: rgb(255, 255, 255);
-    --github-text: #000000;
-    --github-border: #000000;
-    --github-hover-background: #000000;
-    --github-hover-text: rgb(255, 255, 255);
+    --button-background: #242424;
+    --github-text: #ffffff;
+    --github-border: #ffffff;
+    --github-hover-background: #ffffff;
+    --github-hover-text: #000000;
     --facebook-text: #1877f2;
     --facebook-border: #1877f2;
     --facebook-hover-background: #1877f2;
@@ -23,18 +23,9 @@
     --twitch-hover-text: rgb(255, 255, 255);
 }
 
-/* [data-theme="dark"] {
-    --text-color: rgb(0, 110, 255);
-    --button-background: rgb(0, 0, 0);
-    --github-text: #ffffff;
-    --github-border: #ffffff;
-    --github-hover-background: #ffffff;
-    --github-hover-text: rgb(0, 0, 0);
-    --facebook-text: #1877f2;
-    --facebook-border: #1877f2;
-    --facebook-hover-background: #1877f2;
-    --facebook-hover-text: rgb(0, 0, 0);
-} */
+body {
+    background-color: #242424;
+}
 
 div {
     text-align: center;
