@@ -1,0 +1,105 @@
+@font-face {
+    font-family: boldmonolisa;
+    src: url("./fonts/monolisa_bold.otf");
+}
+
+@font-face {
+    font-family: monolisa;
+    src: url("./fonts/monolisa.ttf");
+}
+
+:root {
+    --text-color: #009aff;
+    --button-background: #242424;
+    --github-text: #ffffff;
+    --github-border: #ffffff;
+    --github-hover-background: #ffffff;
+    --github-hover-text: #000000;
+    --youtube-text: #ff0000;
+    --youtube-border: #ff0000;
+    --youtube-hover-background: #ff0000;
+    --youtube-hover-text: rgb(255, 255, 255);
+    --twitch-text: #9147fe;
+    --twitch-border: #9147fe;
+    --twitch-hover-background: #9147fe;
+    --twitch-hover-text: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url('./img/dark_binary.jpg');
+    background-size: 1450px;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+div {
+    padding: 100px;
+    font-size: 50px;
+    color: var(--text-color);
+    font-family: 'Rubik', sans-serif;
+    background: transparent;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#gv {
+    color: grey;
+    font-size: 40px;
+}
+
+#gv:hover {
+    transition-duration: 0.4s;
+    color: white;
+}
+
+#yv {
+    color: grey;
+    font-size: 40px;
+}
+
+#yv:hover {
+    transition-duration: 0.4s;
+    color: #ff0000;
+}
+
+#tv {
+    color: grey;
+    font-size: 40px;
+}
+
+#tv:hover {
+    transition-duration: 0.4s;
+    color: #9147fe;
+}
+
+.card {
+    border: 4px solid #009aff;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    font-family: monolisa;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: transparent;
+    color: #009aff;
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    font-family: boldmonolisa;
+    border-radius: 8px;
+    border: 2px solid #009aff;
+}
+
+.btn:hover {
+    transition-duration: 0.4s;
+    background-color: #009aff;
+    color: white;
+}

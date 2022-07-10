@@ -1,0 +1,25 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "View Here https://www.jslee.ga",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starnotgoal/Personal-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starnotgoal/Personal-Web/issues"
+  },
+  "homepage": "https://github.com/starnotgoal/Personal-Web#readme",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "express-subdomain": "^1.0.5",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
