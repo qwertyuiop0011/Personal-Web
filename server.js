@@ -13,11 +13,11 @@ const router = express.Router();
 app.use(subdomain('blog', router));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(bpath, 'home.html'));
+    res.sendFile(path.join(bpath, 'index.html'));
 })
 
 router.get('/', (req, res) => {
-    res.sendFile(path.join(bpath, 'blog.html'));
+    res.sendFile(path.join(bpath, 'src/blog.html'));
 })
 
 app.listen("3000", () => {
