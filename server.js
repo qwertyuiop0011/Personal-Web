@@ -3,7 +3,7 @@ const subdomain = require('express-subdomain');
 const path = require('path');
 const fileupload = require('express-fileupload');
 
-let bpath = path.join(__dirname, "src");
+let bpath = path.join(__dirname, "docs");
 
 const app = express();
 app.use(express.static(bpath));
@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 
 router.get('/', (req, res) => {
-    res.sendFile(path.join(bpath, 'src/blog.html'));
+    res.sendFile(path.join(bpath, 'blog.html'));
 })
 
 app.listen("3000", () => {
